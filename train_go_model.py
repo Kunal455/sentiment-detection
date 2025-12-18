@@ -48,7 +48,7 @@ pipe = Pipeline([
 
 pipe.fit(X, y)
 
-print("Saving model pipeline...")
+print("Saving model pipeline in some minutes...")
 with open("go_emotion_model.pkl", "wb") as f:
     pickle.dump(pipe, f)
 print("Done. Model saved to go_emotion_model.pkl")
