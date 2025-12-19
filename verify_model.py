@@ -1,8 +1,8 @@
-# Verification script for Sentiment Analysis Model
+
 import predictor
 import sys
 
-# Load the model explicitly (predictor does this but good to confirm)
+
 if predictor.model_pipe is None:
     print("Error: Model not loaded. Please run train_go_model.py")
     sys.exit(1)
