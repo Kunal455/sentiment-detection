@@ -1,9 +1,9 @@
 
-# TODO: Optimize model loading
+
 import pickle
 import re
 
-# Load the new GoEmotions model pipeline
+
 try:
     with open("go_emotion_model.pkl", "rb") as f:
         model_pipe = pickle.load(f)
